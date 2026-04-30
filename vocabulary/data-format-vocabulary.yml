@@ -1,0 +1,62 @@
+name: Data Format Vocabulary
+description: >-
+  Vocabulary of data format and serialization concepts spanning text and
+  binary representations, schema languages, and encoding properties.
+terms:
+  - term: Serialization
+    definition: >-
+      The process of converting in-memory data structures into a byte
+      sequence that can be stored or transmitted.
+  - term: Deserialization
+    definition: >-
+      The reverse of serialization, reconstructing in-memory structures
+      from a byte sequence.
+  - term: Text Format
+    definition: >-
+      A data format encoded as human-readable characters such as JSON,
+      XML, YAML, CSV, or TOML.
+  - term: Binary Format
+    definition: >-
+      A data format encoded as raw bytes optimized for size or speed,
+      such as Protocol Buffers, Avro, Parquet, MessagePack, BSON, or CBOR.
+  - term: Schema
+    definition: >-
+      A formal description of the structure, types, and constraints of
+      data in a particular format.
+  - term: Schema Evolution
+    definition: >-
+      The set of rules that govern how a schema can change over time
+      while maintaining backward and forward compatibility.
+  - term: IDL
+    definition: >-
+      Interface Definition Language, a textual language used to define
+      types and services in formats like Protocol Buffers, Thrift, and
+      Avro.
+  - term: Columnar Format
+    definition: >-
+      A storage layout that groups values by column rather than row,
+      used by Parquet, ORC, and Arrow for analytical queries.
+  - term: Row-Oriented Format
+    definition: >-
+      A storage layout that keeps all fields of a record contiguous,
+      used by formats like Avro and CSV.
+  - term: Self-Describing Format
+    definition: >-
+      A format whose payload includes enough type information to be
+      parsed without an external schema, such as JSON or BSON.
+  - term: Schema-Driven Format
+    definition: >-
+      A format that requires a separate schema definition to parse the
+      payload, such as Protocol Buffers or Avro.
+  - term: Encoding
+    definition: >-
+      The character encoding (UTF-8, UTF-16) or binary encoding rules
+      applied when serializing data.
+  - term: Compression Codec
+    definition: >-
+      An algorithm such as Snappy, Zstandard, GZIP, or LZ4 used to
+      reduce the size of serialized data.
+  - term: Wire Format
+    definition: >-
+      The on-the-wire representation of data exchanged between
+      processes or systems.
