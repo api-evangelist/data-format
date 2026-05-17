@@ -6,8 +6,7 @@ description: >-
   YAML, CSV, TOML), binary formats (Protocol Buffers, Avro, Parquet, ORC,
   MessagePack, BSON, CBOR, Arrow), and schema languages and IDLs that
   govern how those formats are validated and evolved.
-type: Topic
-xType: topic
+kind: topic
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
