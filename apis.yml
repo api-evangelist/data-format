@@ -7,9 +7,20 @@ description: >-
   MessagePack, BSON, CBOR, Arrow), and schema languages and IDLs that
   govern how those formats are validated and evolved.
 kind: topic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 position: Consumer
 access: 3rd-Party
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/data-format.png
 tags:
   - Binary Formats
   - Data Format
